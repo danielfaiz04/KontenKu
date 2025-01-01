@@ -1,0 +1,336 @@
+/* Global Container */
+.container {
+    max-width: 1140px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Header & Title */
+.content-header {
+    padding: 2rem 0;
+    margin: 0 15px;
+}
+
+.page-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    margin: 0 2rem 2rem 2rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 1.25rem;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+/* Detail Items */
+.detail-item {
+    position: relative;
+    padding: 0 10px;
+    margin-bottom: 1.5rem;
+}
+
+.detail-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.detail-content {
+    color: #4a5568;
+    line-height: 1.6;
+}
+
+/* Table Styling */
+.table {
+    margin: 0;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+/* Button Styling */
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+}
+
+.btn-group .btn:not(:last-child) {
+    margin-right: 0.25rem;
+}
+
+/* Status Badges */
+.badge {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+/* Media Preview */
+.media-preview {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    margin: 0 10px;
+}
+
+/* Form Controls */
+.form-control {
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Dashboard Stats */
+.stats-card {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.stats-card h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+/* Product List */
+.product-item {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.product-item:last-child {
+    border-bottom: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .detail-item {
+        padding: 0 5px;
+    }
+    
+    .table-responsive {
+        margin: 0 -1rem;
+    }
+} 
+
+/* Main Layout & Spacing */
+.main-content {
+    padding: 2rem 8rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Card & Container Spacing */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    margin: 0 2rem 2rem 2rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    padding: 1.5rem 2rem;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Content Header */
+.content-header {
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+/* Table Container */
+.table-container {
+    padding: 0 2rem;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.table th,
+.table td {
+    padding: 1rem;
+}
+
+/* Form Spacing */
+.form-container {
+    padding: 0 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Detail View Spacing */
+.detail-container {
+    padding: 0 2rem;
+}
+
+.detail-item {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1400px) {
+    .main-content {
+        padding: 2rem 6rem;
+    }
+    .card {
+        margin: 0 1.5rem 2rem 1.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-content {
+        padding: 2rem 4rem;
+    }
+    .card {
+        margin: 0 1rem 2rem 1rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-content {
+        padding: 2rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        padding: 1.5rem 2rem;
+    }
+
+    .card-header,
+    .card-body {
+        padding: 1.5rem;
+    }
+
+    .table-container,
+    .form-container,
+    .detail-container {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-content {
+        padding: 1rem;
+    }
+
+    .card-header,
+    .card-body {
+        padding: 1rem;
+    }
+
+    .table-container,
+    .form-container,
+    .detail-container {
+        padding: 0 0.75rem;
+    }
+} 
+
+/* Main Layout & Container */
+.main-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Content Wrapper - untuk semua konten */
+.content-wrapper {
+    padding: 0 40px; /* Jarak 40px dari kiri dan kanan */
+}
+
+/* Card Container */
+.card {
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    margin-bottom: 2rem;
+}
+
+/* Table Container */
+.table-container {
+    padding: 0 20px; /* Tambahan padding dalam tabel */
+}
+
+/* Form Container */
+.form-container {
+    padding: 0 20px; /* Tambahan padding dalam form */
+}
+
+/* Detail Container */
+.detail-container {
+    padding: 0 20px; /* Tambahan padding dalam detail view */
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .content-wrapper {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .content-wrapper {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .content-wrapper {
+        padding: 0 15px;
+    }
+} 

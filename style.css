@@ -1,0 +1,132 @@
+/* Navbar Styling */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    color: rgba(255,255,255,0.9) !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+    background: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    box-shadow: 0 0 15px rgba(0,0,0,.05);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 1.25rem;
+}
+
+.card-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Table Styling */
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+/* Badge Styling */
+.badge {
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+.badge.bg-draft {
+    background-color: #6c757d;
+}
+
+.badge.bg-aktif {
+    background-color: #198754;
+}
+
+.badge.bg-selesai {
+    background-color: #0dcaf0;
+}
+
+.badge.bg-arsip {
+    background-color: #dc3545;
+}
+
+/* Button Styling */
+.btn {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+.btn-sm {
+    padding: 0.25rem 0.75rem;
+    margin-right: 0.5rem;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-warning {
+    color: #fff;
+}
+
+/* Form Styling */
+.form-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13,110,253,.25);
+} 
+
+/* Card Status Colors */
+.card-status-draft {
+    border-left: 4px solid #6c757d;
+}
+
+.card-status-aktif {
+    border-left: 4px solid #198754;
+}
+
+.card-status-selesai {
+    border-left: 4px solid #0dcaf0;
+}
+
+.card-status-arsip {
+    border-left: 4px solid #dc3545;
+} 
